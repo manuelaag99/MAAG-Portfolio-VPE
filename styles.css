@@ -1,0 +1,70 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #a01313;
+    transition-duration: 1s;
+}
+
+#sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 35%;
+    height: 100vh;
+    text-align: right;
+    padding: 40px;
+    padding-top: 80px;
+    box-sizing: border-box;
+    border-right: 3px solid black;
+}
+
+#sidebar img {
+    border-radius: 50%;
+    object-fit: contain;
+    width: 40%;
+}
+
+h1 {
+    font-size: 3.3rem;
+}
+
+#languages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#mainbar {
+    width: 65%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-height: 4000px;
+    overflow: auto;
+}
+
+.content {
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.english {
+    display: block;
+}
+
+.spanish {
+    display: none;
+}
