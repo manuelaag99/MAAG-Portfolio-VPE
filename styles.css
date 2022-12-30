@@ -67,7 +67,6 @@ h1 {
     right: 0;
     top: 0;
     max-height: 4000px;
-    overflow: auto;
 }
 
 #top-banner {
@@ -88,6 +87,37 @@ h1 {
 
 .spanish {
     display: none;
+}
+
+.my-work-titles {
+    font-weight: bolder;
+}
+
+.my-work-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-element {
+    width: 45%;
+    height: 150px;
+    margin-bottom: 45px;
+    margin-left: -5%;
+}
+
+.card-element h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.card-element p {
+    overflow: auto;
+    max-height: 100px;
+}
+
+#my-work iframe {
+    width: 100%;
 }
 
 @media (max-width: 1000px) and (min-width: 200px) {
