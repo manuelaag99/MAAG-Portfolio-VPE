@@ -95,15 +95,16 @@ h1 {
 
 .my-work-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 60px;
+    border-bottom: 1px dashed grey;
 }
 
 .card-element {
-    width: 45%;
+    width: 48%;
     height: 200px;
     margin-bottom: 45px;
-    margin-left: -5%;
 }
 
 .card-element h4 {
@@ -114,6 +115,8 @@ h1 {
 .card-element p {
     overflow: auto;
     max-height: 145px;
+    text-align: justify;
+    padding-right: 5px;
 }
 
 #my-work iframe, #mi-trabajo iframe {
@@ -136,5 +139,9 @@ h1 {
 
     h3 {
         font-size: 0.9rem;
+    }
+
+    .card-element {
+        width: 90%;
     }
 }
