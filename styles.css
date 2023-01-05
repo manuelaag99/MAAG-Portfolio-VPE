@@ -124,6 +124,10 @@ h1 {
     height: 200px;
 }
 
+#my-work, #mi-trabajo, #about-me, #sobre-mi, #contact-me, #contactame {
+    margin-bottom: 30px;
+}
+
 @media (max-width: 1000px) and (min-width: 200px) {
     #sidebar img {
         width: 90%;
