@@ -86,10 +86,13 @@ h1 {
 }
 
 #top-banner {
-    height: 300px;
+    height: 400px;
     width: 100%;
-    background-color: blue;
     z-index: 3;
+    object-fit: contain;
+    background-image: url("images/backgroundimg.PNG");
+    background-size: 100%;
+    background-position-y: center;
 }
 
 .content {

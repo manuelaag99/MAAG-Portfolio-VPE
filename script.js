@@ -19,3 +19,25 @@ window.addEventListener("load", function() {
     thing = document.querySelector("#mainbar")
     unfade(thing);
 });
+
+const languageSpanishButton = document.querySelectorAll("#languages h2")[0];
+const languageEnglishButton = document.querySelectorAll("#languages h2")[1];
+
+const languageSpanishComponents = document.querySelectorAll(".spanish");
+const languageEnglishComponents = document.querySelectorAll(".english");
+
+languageSpanishButton.onclick = function() {
+    languageSpanishButton.style.color = "blue";
+    for (var i = 0; i < languageEnglishComponents.length; i++) {
+        languageEnglishComponents[i].style.display = "none"
+        languageSpanishComponents[i].style.display = "block"
+    }
+};
+
+languageEnglishButton.onclick = function() {
+    languageEnglishButton.style.color = "blue";
+    for (var i = 0; i < languageEnglishComponents.length; i++) {
+        languageSpanishComponents[i].style.display = "none"
+        languageEnglishComponents[i].style.display = "block"
+    }
+};
