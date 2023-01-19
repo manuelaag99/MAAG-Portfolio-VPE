@@ -29,6 +29,8 @@ const languageEnglishComponents = document.querySelectorAll(".english");
 languageSpanishButton.onclick = function() {
     languageSpanishButton.style.color = "blue";
     for (var i = 0; i < languageEnglishComponents.length; i++) {
+        languageEnglishButton.style.color = "inherit"
+        languageSpanishButton.style.color = "#a01313"
         languageEnglishComponents[i].style.display = "none"
         languageSpanishComponents[i].style.display = "block"
     }
@@ -37,6 +39,8 @@ languageSpanishButton.onclick = function() {
 languageEnglishButton.onclick = function() {
     languageEnglishButton.style.color = "blue";
     for (var i = 0; i < languageEnglishComponents.length; i++) {
+        languageSpanishButton.style.color = "inherit"
+        languageEnglishButton.style.color = "#a01313"
         languageSpanishComponents[i].style.display = "none"
         languageEnglishComponents[i].style.display = "block"
     }

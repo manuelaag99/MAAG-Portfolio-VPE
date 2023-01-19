@@ -31,7 +31,6 @@ a:hover {
     padding: 40px;
     padding-top: 80px;
     box-sizing: border-box;
-    border-right: 1px solid black;
     box-shadow: 1px 0px 5px black;
 }
 
@@ -50,7 +49,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -108,7 +107,7 @@ h1 {
     display: block;
 }
 
-.my-work-titles {
+.portfolio-title {
     font-weight: bolder;
 }
 
@@ -121,9 +120,9 @@ h1 {
 }
 
 .card-element {
-    width: 48%;
     height: 200px;
     margin-bottom: 45px;
+    width: 48%;
 }
 
 .card-element h4 {
@@ -138,13 +137,37 @@ h1 {
     padding-right: 5px;
 }
 
-#my-work iframe, #mi-trabajo iframe {
+#my-work iframe {
     width: 100%;
     height: 200px;
 }
 
-#my-work, #mi-trabajo, #about-me, #sobre-mi, #contact-me, #contactame {
+#my-work, #about-me, #contact-me {
     margin-bottom: 30px;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+#about-me-first-paragraph {
+    width: 100%
+}
+
+.about-me-text, .about-me-pic {
+    width: 48%;
+}
+
+.about-me-text p {
+    text-align: justify;
+    margin-top: 0;
+}
+
+.about-me-pic img {
+    width: 100%;
 }
 
 @media (max-width: 1000px) and (min-width: 200px) {
