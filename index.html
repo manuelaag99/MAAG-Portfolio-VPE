@@ -20,20 +20,8 @@
                 </a>
             </div>
             <h1>Manuel Alanis</h1>
-            <div class="sections english">
-                <h3>Video producer and editor</h3>
-                <a href="#my-work">
-                    <h3>My work</h3>
-                </a>
-                <a href="#about-me">
-                    <h3>About me</h3>
-                </a>
-                <a href="#contact-me">
-                    <h3>Contact me</h3>
-                </a>
-            </div>
             <div class="sections spanish">
-                <h3>Productor y editor de video</h3>
+                <h3 class="my-description">Productor y editor de video</h3>
                 <a href="#my-work">
                     <h3>Mi trabajo</h3>
                 </a>
@@ -42,6 +30,18 @@
                 </a>
                 <a href="#contact-me">
                     <h3>Contáctame</h3>
+                </a>
+            </div>
+            <div class="sections english">
+                <h3 class="my-description">Video producer and editor</h3>
+                <a href="#my-work">
+                    <h3>My work</h3>
+                </a>
+                <a href="#about-me">
+                    <h3>About me</h3>
+                </a>
+                <a href="#contact-me">
+                    <h3>Contact me</h3>
                 </a>
             </div>
         </div>
@@ -58,6 +58,7 @@
                 
             </div>
             <div class="content">
+                
                 <div id="my-work">
                     <h2 class="portfolio-title spanish">Mi Trabajo</h2>
                     <h2 class="portfolio-title english">My Work</h2>
@@ -143,7 +144,7 @@
                                     Video-ensayos de temas de interés personal (2020-2022)
                                 </h4>
                                 <h4 class="english">
-                                    Video-ensayos de temas de interés personal (2020-2022)
+                                    Video essays on subjects of my interest (2020-2022)
                                 </h4>
                                 <p class="spanish">
                                     Iniciando la cuarentena en 2020, de nuevo tuve ganas de entrarle a Youtube, y decidí hacer video-ensayos, hablando sobre artes y humanidades. Yo había visto video-ensayos desde hace tiempo en la plataforma, hablando sobre películas y series y temas socioculturales y políticos, y me gustó el formato como ejercicio, así que hice algunos videos haciendo análisis de películas y otros sobre temas sociopolíticos. En ambos casos me tocó poner en práctica una variedad de habilidades, desde planificación, investigación, y escritura, hasta la grabación y edición, involucrando el uso de material externo y/o creado por mí para complementar el discurso.
@@ -373,7 +374,28 @@
                     <h2 class="portfolio-title english">
                         Contact me
                     </h2>
+                    <div class="contact-me-form">
+                        <form class="spanish" action="mailto:manuelaag99@gmail.com" method="post">
+                            <label class="contact-me-element" for="yourName">Tu nombre:</label>
+                            <input class="contact-me-element info" type="text" name="yourName" value="" placeholder="Escribe tu nombre aquí..."><br>
+                            <label class="contact-me-element" for="yourEmail">Tu e-mail:</label>
+                            <input class="contact-me-element info" type="email" name="yourEmail" value="" placeholder="Escribe tu correo aquí..."><br>
+                            <label class="contact-me-element" for="yourMessage">Tu mensaje:</label>
+                            <textarea class="contact-me-element" name="yourMessage" rows="7" cols="100" placeholder="Escribe tu mensaje aquí..."></textarea><br>
+                            <input class="contact-me-element submit-button" type="submit" name="submitButton" value="Enviar (se abrirá otra ventana)">
+                        </form>
+                        <form class="english" action="mailto:manuelaag99@gmail.com" method="post">
+                            <label class="contact-me-element" for="yourName">Your name:</label>
+                            <input class="contact-me-element info" type="text" name="yourName" value="" placeholder="Write your name in here..."><br>
+                            <label class="contact-me-element" for="yourEmail">Your e-mail:</label>
+                            <input class="contact-me-element info" type="email" name="yourEmail" value="" placeholder="Write your address in here..."><br>
+                            <label class="contact-me-element" for="yourMessage">Your message:</label>
+                            <textarea class="contact-me-element" name="yourMessage" rows="7" cols="100" placeholder="Write your message in here......"></textarea><br>
+                            <input class="contact-me-element submit-button" type="submit" name="submitButton" value="Send (this will open a new window)">
+                        </form>
+                    </div>
                 </div>
+
             </div>
         </div>
         <script src="https://kit.fontawesome.com/ebb906b1c0.js" crossorigin="anonymous"></script>

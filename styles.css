@@ -6,6 +6,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
+    line-height: 1.5;
 }
 
 a {
@@ -16,7 +17,7 @@ a {
 
 a:hover {
     color: #a01313;
-    transition-duration: 1s;
+    transition-duration: 0.4s;
 }
 
 #sidebar {
@@ -32,6 +33,7 @@ a:hover {
     padding-top: 80px;
     box-sizing: border-box;
     box-shadow: 1px 0px 5px black;
+    line-height: 1;
 }
 
 #sidebar img {
@@ -158,7 +160,7 @@ h1 {
 }
 
 .about-me-text, .about-me-pic {
-    width: 48%;
+    width: 46%;
 }
 
 .about-me-text p {
@@ -168,6 +170,40 @@ h1 {
 
 .about-me-pic img {
     width: 100%;
+}
+
+.contact-me-element {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.contact-me-form label {
+    margin-bottom: 5px;
+}
+
+.contact-me-form input, textarea {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.info {
+    height: 35px;
+}
+
+.submit-button {
+    height: 40px;
+    font-weight: bolder;
+    background-color: #a01313;
+    color: #fff;
+}
+
+.submit-button:hover {
+    background-color: #ff6464;
+    cursor: pointer;
 }
 
 @media (max-width: 1000px) and (min-width: 200px) {
@@ -187,7 +223,7 @@ h1 {
         font-size: 0.9rem;
     }
 
-    .card-element {
+    .card-element, .about-me-text, .about-me-pic, .contact-me-form textarea {
         width: 100%;
     }
 }
