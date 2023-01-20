@@ -22,7 +22,6 @@ window.addEventListener("load", function() {
 
 const languageSpanishButton = document.querySelectorAll("#languages h2")[0];
 const languageEnglishButton = document.querySelectorAll("#languages h2")[1];
-
 const languageSpanishComponents = document.querySelectorAll(".spanish");
 const languageEnglishComponents = document.querySelectorAll(".english");
 
