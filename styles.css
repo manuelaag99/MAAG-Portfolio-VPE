@@ -211,9 +211,13 @@ h1 {
     cursor: pointer;
 }
 
-@media (max-width: 1000px) and (min-width: 200px) {
-    #sidebar img {
-        width: 90%;
+@media (max-width: 1000px) and (min-width: 100px) {
+    #sidebar {
+        display: none;
+    }
+
+    #mainbar {
+        width: 100%;
     }
     
     h1 {
